@@ -1,0 +1,10 @@
+# Site settings
+title: Young Rich America
+email: officialnew3ra@gmail.com
+description:
+url: http://youngrichamerica.github.io
+github_username: youngrichamerica
+
+# Build settings
+markdown: kramdown
+permalink: pretty
