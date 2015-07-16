@@ -13,7 +13,8 @@ html {
 } 
 
 body {
-	background-image: url(images/bgImage.gif)
+	background-image: url(images/bgImage.gif);
+	background-size: 100%;
   	font-family: bodyText;
   	margin:0 auto;
   	font-weight: 400;
