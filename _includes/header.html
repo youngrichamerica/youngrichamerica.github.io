@@ -1,0 +1,13 @@
+<header class="site-header cf">
+<a class="site-title"> 
+<img src="http://placehold.it/150x150" class="site-logo"></a>
+<nav class="navbar">
+    <ul class="header-nav">
+        <li><a class="nav-link{% if page.title == "Home" %} active{% endif %}" href="{{site.url}}">Home</a></li>
+        <li><a class="nav-link{% if page.title == "Members" %} active{% endif %}" href="{{site.url}}/members">Members</a></li>
+        <li><a class="nav-link{% if page.title == "Music" %} active{% endif %}" href="{{site.url}}/music">Music</a></li>
+        <li><a class="nav-link{% if page.title == "Shows" %} active{% endif %}" href="{{site.url}}/shows">Shows</a></li>
+        <li><a class="nav-link{% if page.title == "Merch" %} active{% endif %}" href="{{site.url}}/merch">Merch</a></li>
+        <li><a class="nav-link{% if page.title == "Photos" %} active{% endif %}" href="{{site.url}}/photos">Photos</a></li>
+    </ul>
+</nav>
