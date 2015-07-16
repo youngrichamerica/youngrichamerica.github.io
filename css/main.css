@@ -22,6 +22,11 @@ body {
   	font-size: 18px;
 }
 
+.site-logo {
+	padding:.2em;
+}
+
+
 
 /* -----NAVIGATION----- */
 
@@ -54,22 +59,10 @@ body {
 	font-family:caps;
 	color:white;
 	float:left;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding:1em 1.5em;
 	text-decoration:none;
 	display:block;
-}
-
-.one:hover {
-	background-color:#F16F89;
-}
-
-.two:hover {
-	background-color:#07B5FF;
-}
-
-.three:hover {
-	background-color:#FAAA61;
 }
 
 .nav-link.active {
