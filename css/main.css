@@ -25,7 +25,7 @@ body {
 }
 
 .site-logo {
-	padding:1em;
+	padding:.75em;
 }
 
 
@@ -34,7 +34,7 @@ body {
 
 .site-header {
 	background-color:rgba(0, 0, 0, .7);
-	height:150px;
+	height:125px;
 }
 
 .navbar {
