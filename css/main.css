@@ -14,8 +14,8 @@ html {
 
 body {
 	background-image: url(/images/bgImage.gif);
-	background-size: 100%;
-	background-position:fixed;
+	background-size: 100% 100%;
+	background-attachment:fixed;
   	font-family: bodyText;
   	margin:0 auto;
   	font-weight: 400;
@@ -93,7 +93,7 @@ h4 {font-size: 1.2em;
 .site-tag {
 	font-family:fancy;
 	color: #8A712E;
-	margin-top:2em;
+	margin-top:5em;
 }
 
 
@@ -102,6 +102,8 @@ h4 {font-size: 1.2em;
 .site-header {
 	background-color:rgba(0, 0, 0, .7);
 	height:125px;
+	width:100%;
+	position:fixed;
 }
 
 .navbar {
