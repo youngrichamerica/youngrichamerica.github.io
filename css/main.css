@@ -26,6 +26,8 @@ body {
 
 .site-logo {
 	padding:.75em;
+	float:left;
+	margin-left: 1em;
 }
 
 
@@ -39,8 +41,8 @@ body {
 
 .navbar {
   	padding: .5em;
-  	float:right;
-  	position:relative;
+  	float:left;
+  	margin: 0 auto;
 }
 
 @media(max-width:1100px){
