@@ -23,7 +23,7 @@ body {
   	font-weight: 400;
   	line-height: 1.5;
   	height:100%;
-  	color: black;
+  	color: white;
   	font-size: 18px;
 }
 
@@ -126,7 +126,6 @@ h4 {font-size: 1.2em;
 
 .nav-link {
 	font-family:caps;
-	color:white;
 	font-size: 1em;
 	padding:.5em 2em;
 	text-decoration:none;
@@ -218,7 +217,7 @@ h4 {font-size: 1.2em;
 
 .col {
 	float: left;
-	max-width: 30%;
+	width: 30%;
 	padding:.4em;
 }
 }
@@ -228,7 +227,6 @@ h4 {font-size: 1.2em;
 }
 
 .col {
-	min-height:100px;
 }
 
 .col-head {
