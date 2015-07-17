@@ -42,7 +42,7 @@ body {
 .navbar {
   	padding: .5em;
   	float:left;
-  	margin: 0 auto;
+  	margin-left: 3em;
 }
 
 @media(max-width:1100px){
