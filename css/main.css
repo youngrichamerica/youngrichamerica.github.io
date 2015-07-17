@@ -72,7 +72,8 @@ body {
 	text-decoration:underline;
 }
 
-.nav-link.active:hover {
+.nav-link:hover {
+	color:#8A712E;
 }
 
 
