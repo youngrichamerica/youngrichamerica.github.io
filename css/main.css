@@ -49,17 +49,6 @@ h3 {font-size: 1.35em;
 h4 {font-size: 1.2em;
 }
 
-
-#wrap {
-	min-height:100%;
-}
-
-#main {
-	overflow:auto;
-	padding bottom:180px;
-	min-height:800px;
-}
-
 .container {
 	max-width: 80%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
@@ -81,17 +70,7 @@ h4 {font-size: 1.2em;
 	}
 }
 
-
-
-
-
-.site-logo {
-	padding:.75em;
-	float:left;
-	margin-left: 1em;
-	max-width:75px;
-}
-
+/* ------ Homepage ----- */
 
 .site-tag {
    -webkit-text-fill-color: #8A712E; /* Will override color (regardless of order) */
@@ -102,8 +81,21 @@ h4 {font-size: 1.2em;
 	margin-top:7em;
 }
 
+.promo-box {
+	background-color:rgba(0, 0, 0, .85);
+	width:100%;
+	height:300px;
+}
 
-/* -----NAVIGATION----- */
+
+/* -----Header / Navigation ----- */
+
+.site-logo {
+	padding:.75em;
+	float:left;
+	margin-left: 1em;
+	max-width:75px;
+}
 
 .site-header {
 	background-color:rgba(0, 0, 0, .7);
@@ -226,7 +218,7 @@ h4 {font-size: 1.2em;
 
 .col {
 	float: left;
-	max-width: 50%;
+	max-width: 30%;
 	padding:.4em;
 }
 }
@@ -241,6 +233,10 @@ h4 {font-size: 1.2em;
 
 .col-head {
 	text-align:center;
+	display:block;
+	width:100%;
+	font-family:caps;
+	border-bottom:2px solid #8A712E;
 }
 
 .col-box {
@@ -251,9 +247,7 @@ h4 {font-size: 1.2em;
 }
 
 .box-content {
-	position:relative;
-	top:50%;
-	transform:translateY(-50%);
+
 }
 
 
