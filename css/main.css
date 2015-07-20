@@ -176,6 +176,14 @@ h4 {font-size: 1.2em;
 	cursor:pointer;
 }
 
+.x:hover {
+	opacity:.7;
+}
+
+.hamburger:hover {
+	opacity:.7;
+}
+
 @media (max-width:1100px){
 	.hamburger {
 		display:inline-block;
