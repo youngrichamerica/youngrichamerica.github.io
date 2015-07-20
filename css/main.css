@@ -168,16 +168,16 @@ h4 {font-size: 1.2em;
 .hamburger {
 	display:none;
 	float:right;
-	max-width:70px;
-	padding:1em;
+	max-width:60px;
+	padding:1.5em;
 	cursor:pointer;
 }
 
 .x {
 	display:none;
 	float:right;
-	max-width:60px;
-	padding:1em;
+	max-width:50px;
+	padding:1.5em;
 	cursor:pointer;
 }
 
