@@ -10,7 +10,7 @@
 
 @font-face {
 	font-family: tagline;
-	src: url(/fonts/TrashHand.TTF);
+	src: url(/fonts/MondayMorning.ttf);
 }
 
 html {
@@ -82,6 +82,7 @@ h4 {font-size: 1.2em;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 	font-family:tagline;
+	font-size
 	color: #8A712E;
 	margin-top:7em;
 }
