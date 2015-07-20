@@ -238,14 +238,18 @@ h4 {font-size: 1.2em;
 }
 }
 
-.content-columns {
-
-}
-
+@media (max-width:700px){
 .col {
 	margin:2.5em auto;
 	width:75%;
 }
+}
+
+.content-columns {
+
+}
+
+
 
 .col-head {
 	text-align:center;
