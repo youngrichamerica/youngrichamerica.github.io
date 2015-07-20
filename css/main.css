@@ -225,7 +225,7 @@ h4 {font-size: 1.2em;
 
 
 .col-contain {
-	margin:0 auto;
+	text-align:center;
 }
 
 @media (min-width:750px){
