@@ -91,14 +91,21 @@ h4 {font-size: 1.2em;
 
 /* ----- Members ----- */
 
+.member-holder {
+	width:85%;
+	margin:0 auto;
+}
+
 .member {
 	display: inline-block;
-	margin: 0 auto;
+	margin: 0 1em;
 }
 
 .member-img {
 	max-width: 300px;
 }
+
+
 
 
 /* -----Header / Navigation ----- */
