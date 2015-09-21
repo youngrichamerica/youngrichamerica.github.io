@@ -104,6 +104,8 @@ h4 {font-size: 1.2em;
 
 .member-img {
 	max-width: 300px;
+	border: 2px solid #8A712E;
+	border-radius:5px;
 }
 
 
