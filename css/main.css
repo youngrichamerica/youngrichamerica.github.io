@@ -33,7 +33,7 @@ body {
   	font-weight: 400;
   	line-height: 1.5;
   	height:100%;
-  	color: whitesmoke;
+  	color: white;
   	font-size: 18px;
 }
 
@@ -105,7 +105,7 @@ h4 {font-size: 1.2em;
 
 .member-img {
 	max-width: 300px;
-	border: 2px solid whitesmoke;
+	border: 1px solid #8A712E;
 	border-radius:5px;
 }
 
@@ -178,7 +178,7 @@ h4 {font-size: 1.2em;
 
 .nav-link {
 	font-family:caps;
-	color:whitesmoke;
+	color:white;
 	font-size: 1em;
 	padding:.5em 2em;
 	text-decoration:none;
