@@ -89,6 +89,18 @@ h4 {font-size: 1.2em;
 }
 
 
+/* ----- Members ----- */
+
+.member {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.member-img {
+	max-width: 300px;
+}
+
+
 /* -----Header / Navigation ----- */
 
 .site-logo {
