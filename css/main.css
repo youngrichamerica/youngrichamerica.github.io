@@ -112,6 +112,11 @@ h4 {font-size: 1.2em;
 	color:#8A712E;
 }
 
+.text-container {
+	width:70%;
+	margin:1em auto;
+}
+
 
 
 /* -----Header / Navigation ----- */
