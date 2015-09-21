@@ -94,7 +94,7 @@ h4 {font-size: 1.2em;
 
 .member-holder {
 	width:85%;
-	margin:8em auto 1.5em auto;
+	margin:8em auto 3em auto;
 	text-align:center;
 }
 
@@ -114,8 +114,9 @@ h4 {font-size: 1.2em;
 }
 
 .text-container {
-	width:70%;
+	width:60%;
 	margin:1em auto;
+	text-indent:1em;
 }
 
 
