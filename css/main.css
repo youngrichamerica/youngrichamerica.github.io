@@ -114,11 +114,22 @@ h4 {font-size: 1.2em;
 }
 
 .text-container {
-	width:60%;
+	width:50%;
 	margin:1em auto;
 	text-indent:1em;
 }
 
+@media(max-width:800px){
+	.text-container{
+		width:75%;
+	}
+}
+
+@media(max-width:450px){
+	.text-container{
+		width:85%;
+	}
+}
 
 
 /* -----Header / Navigation ----- */
