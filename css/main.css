@@ -155,7 +155,7 @@ h4 {font-size: 1.2em;
 	display:none;
 }
 
-.play-link {
+.play-link, .close-link {
 	cursor:pointer;
 }
 
