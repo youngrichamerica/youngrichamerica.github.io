@@ -250,10 +250,10 @@ h4 {font-size: 1.2em;
 }
 
 .mobile-nav-link {
-	font-family:bodyBold;
+	font-family:caps;
 	padding:.25em .5em;
 	margin: .1em 0;
-	color:black;
+	color:white;
 	text-decoration:none;
 	display:block;
 }
