@@ -11,7 +11,7 @@ $(document).ready(function(){
       $(this).css('display', 'none');
   });
 
-  $('#close1').clicl(function(){
+  $('#close1').click(function(){
       $('#player1').fadeOut(500);
       $('#play1').fadeIn(500);
       $(this).css('display', 'none');
