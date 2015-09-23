@@ -15,5 +15,13 @@
 </nav>
 <img class="hamburger" src="/images/hamburger.png">
 <img class="x" src="/images/x.png">
+	<ul class="mobile-nav">
+                <li><a class="mobile-nav-link{% if page.title == "Home" %} active{% endif %}" href="{{site.url}}">Home</a></li>
+                <li><a class="mobile-nav-link blue{% if page.title == "Members" %} active{% endif %}" href="{{site.url}}/members">Members</a></li>
+                <li><a class="mobile-nav-link{% if page.title == "Music" %} active{% endif %}" href="{{site.url}}/music">Music</a></li>
+                <li><a class="mobile-nav-link{% if page.title == "Shows" %} active{% endif %}" href="{{site.url}}/shows">Shows</a></li>
+                <li><a class="mobile-nav-link{% if page.title == "Merch" %} active{% endif %}" href="{{site.url}}/merch">Merch</a></li>
+                <li><a class="mobile-nav-link{% if page.title == "Photos" %} active{% endif %}" href="{{site.url}}/photos">Photos</a></li>
+            </ul>
 </div>
 </header>
