@@ -7,7 +7,7 @@ $(document).ready(function(){
 
   $('#play1').click(function(){
       $('#player1').fadeIn(500);
-      $('#close1'),fadeIn(500);
+      $('#close1').fadeIn(500);
       $(this).css('display', 'none');
   });
 
