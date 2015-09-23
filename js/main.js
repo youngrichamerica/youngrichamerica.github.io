@@ -7,6 +7,13 @@ $(document).ready(function(){
 
   $('#play1').click(function(){
       $('#player1').fadeIn(500);
+      $('#close1'),fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+  $('#close1').clicl(function(){
+      $('#player1').fadeOut(500);
+      $('#play1').fadeIn(500);
       $(this).css('display', 'none');
   });
 
