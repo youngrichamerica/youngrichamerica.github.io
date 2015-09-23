@@ -136,6 +136,7 @@ h4 {font-size: 1.2em;
 /* -----Music----- */
 .albums {
 	text-align:center;
+	margin:0 auto;
 	width:90%;
 }
 
