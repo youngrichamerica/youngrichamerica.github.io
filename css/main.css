@@ -178,6 +178,12 @@ h4 {font-size: 1.2em;
 	display:none;
 }
 
+#close2 {
+	position:absolute;
+	left: 28em;
+	display:none;
+}
+
 /* -----Header / Navigation ----- */
 
 .site-logo {

@@ -17,6 +17,19 @@ $(document).ready(function(){
       $(this).css('display', 'none');
   });
 
+  $('#play2').click(function(){
+      $('#player2').fadeIn(500);
+      $('#close2').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+  $('#close2').click(function(){
+      $('#player2').css('display', 'none');
+      $('#play2').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+
 
 
 
