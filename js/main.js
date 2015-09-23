@@ -29,6 +29,30 @@ $(document).ready(function(){
       $(this).css('display', 'none');
   });
 
+  $('#play3').click(function(){
+      $('#player3').fadeIn(500);
+      $('#close3').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+  $('#close3').click(function(){
+      $('#player3').css('display', 'none');
+      $('#play3').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+  $('#play4').click(function(){
+      $('#player4').fadeIn(500);
+      $('#close4').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+  $('#close4').click(function(){
+      $('#player4').css('display', 'none');
+      $('#play4').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
 
 
 
