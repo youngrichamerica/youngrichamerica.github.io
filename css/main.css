@@ -133,6 +133,22 @@ h4 {font-size: 1.2em;
 }
 
 
+/* -----Music----- */
+.albums {
+	text-align:center;
+	width:90%;
+}
+
+.album-holder {
+	display:inline-block;
+	padding:1em;
+}
+
+.album-artwork {
+	max-width:300px;
+}
+
+
 /* -----Header / Navigation ----- */
 
 .site-logo {
