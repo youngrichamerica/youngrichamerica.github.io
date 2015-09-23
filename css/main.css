@@ -251,9 +251,11 @@ h4 {font-size: 1.2em;
 
 .mobile-nav-link {
 	font-family:caps;
+	font-size:1.25em;
 	padding:.25em .5em;
-	margin: .1em 0;
+	margin: .2em 0;
 	color:white;
+	border: 1px solid #8A712E;
 	text-decoration:none;
 	display:block;
 }
