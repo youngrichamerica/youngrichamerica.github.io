@@ -12,7 +12,7 @@ $(document).ready(function(){
   });
 
   $('#close1').click(function(){
-      $('#player1').fadeOut(500);
+      $('#player1').css('display', 'none');
       $('#play1').fadeIn(500);
       $(this).css('display', 'none');
   });
