@@ -37,6 +37,10 @@ body {
   	font-size: 18px;
 }
 
+a:hover {
+	opacity:.7;
+}
+
 h1, h2, h3, h4 {
   margin: 0 0 .5em 0;
   font-weight: inherit;
@@ -168,10 +172,6 @@ h4 {font-size: 1.2em;
 	cursor:pointer;
 }
 
-.play-link:hover {
-	opacity:.7;
-}
-
 .play-button{
 	max-width:75px;
 }
@@ -192,10 +192,6 @@ h4 {font-size: 1.2em;
 	float:left;
 	margin-left: 1em;
 	max-width:75px;
-}
-
-.site-logo:hover {
-	opacity:.7;
 }
 
 .site-header {
@@ -255,7 +251,7 @@ h4 {font-size: 1.2em;
 }
 
 .nav-link:hover {
-	color:#8A712E;
+	color:#8A712E!important;
 }
 
 
@@ -312,10 +308,6 @@ h4 {font-size: 1.2em;
 	border: 1px solid #8A712E;
 	text-decoration:none;
 	display:block;
-}
-
-.mobile-nav-link:hover {
-	opacity:.7;
 }
 
 
