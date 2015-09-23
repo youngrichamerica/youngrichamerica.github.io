@@ -155,6 +155,14 @@ h4 {font-size: 1.2em;
 	display:none;
 }
 
+.play-link {
+	font-family:caps;
+	color:#8A712E;
+}
+
+.play-link:hover {
+	opacity:.7;
+}
 
 /* -----Header / Navigation ----- */
 
