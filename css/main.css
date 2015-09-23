@@ -141,6 +141,12 @@ h4 {font-size: 1.2em;
 	width:70%;
 }
 
+@media(max-width:450px){
+	.albums {
+		width:100%;
+	}
+}
+
 .album-holder {
 	display:inline-block;
 	padding:1em;
