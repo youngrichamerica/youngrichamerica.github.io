@@ -3,6 +3,16 @@
 $(document).ready(function(){
 
 
+/*--- Album Players ---*/
+
+  $('#play1').click(function(){
+      $('#player1').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+
+
+
 /*--- Dropdown Menu Functionality ---*/
 
 
