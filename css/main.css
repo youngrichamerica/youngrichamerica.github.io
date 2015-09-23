@@ -168,13 +168,12 @@ h4 {font-size: 1.2em;
 }
 
 
-
 .tiny-x {
 	max-width: 15px;
-    position: absolute;
 }
 
 #close1 {
+	position:absolute;
 	left: 14em;
 	display:none;
 }
