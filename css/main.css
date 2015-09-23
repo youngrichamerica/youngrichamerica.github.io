@@ -144,10 +144,14 @@ h4 {font-size: 1.2em;
 .album-holder {
 	display:inline-block;
 	padding:1em;
+	max-width:300px;
 }
 
 .album-artwork {
-	max-width:300px;
+}
+
+.album-player {
+	display:none;
 }
 
 
