@@ -172,13 +172,13 @@ h4 {font-size: 1.2em;
 	max-width: 15px;
 }
 
-#close1 {
+#close1, #close3 {
 	position:absolute;
 	left: 13.5em;
 	display:none;
 }
 
-#close2 {
+#close2, #close4 {
 	position:absolute;
 	left: 32.5em;
 	display:none;
