@@ -107,9 +107,10 @@ h4 {font-size: 1.2em;
     position: fixed;
     top: 0;
     width: 75%;
+    height:auto;
     left: 50%;
 	margin-left: -37.5%;
-	top:50%;
+	top: 50%;
 	margin-top:-37.5%;
 }
 
