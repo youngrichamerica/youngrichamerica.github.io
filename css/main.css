@@ -321,28 +321,29 @@ h4 {font-size: 1.2em;
 	text-align:center;
 }
 
-.col {
-	width:340px;
-}
-
 @media (min-width:750px){
 
 .col {
 	display:inline-block;
 	padding:.6em;
-}
+	width: 340px;
+	}
 
 .promo-box {
 	margin: 1.5em auto;
-}
-
-
+	}
 }
 
 @media (max-width:750px){
 .col {
 	margin:2.5em auto;
+	}
 }
+
+@media (max-width:400px){
+.col {
+	width:90%;
+	}
 }
 
 .promo-box {
