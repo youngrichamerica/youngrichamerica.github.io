@@ -96,7 +96,9 @@ h4 {font-size: 1.2em;
 
 .twitter-timeline {
 	height:250px;
-	width:340px;
+	width:320px;
+	padding:.25em;
+	margin:0 auto;
 }
 
 
@@ -329,7 +331,7 @@ h4 {font-size: 1.2em;
 @media (min-width:750px){
 
 .col {
-	display:inline-block;
+	display:inline-flex;
 	padding:.6em;
 	width: 340px;
 	}
