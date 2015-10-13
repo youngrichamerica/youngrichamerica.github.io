@@ -95,10 +95,7 @@ h4 {font-size: 1.2em;
 }
 
 .video-container {
-    position: relative;
-    width:75%;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+
 }
  
 .video-container iframe,
@@ -111,6 +108,7 @@ h4 {font-size: 1.2em;
     top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	z-index:1000;
 }
 
 
