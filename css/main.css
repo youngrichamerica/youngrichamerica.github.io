@@ -103,7 +103,7 @@ h4 {font-size: 1.2em;
 .video-container iframe,
 .video-container object,
 .video-container embed {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
