@@ -331,15 +331,14 @@ h4 {font-size: 1.2em;
 
 .col {
 	display:inline-block;
-	width: 28%;
-	padding:1em;
+	width: 340px;
+	padding:.6em;
 }
 }
 
 @media (max-width:750px){
 .col {
 	margin:2.5em auto;
-	width:75%;
 }
 }
 
