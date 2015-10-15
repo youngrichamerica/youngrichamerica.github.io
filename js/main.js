@@ -58,11 +58,12 @@ $(document).ready(function(){
 /* ----- Music Video Stuffs ----- */
 $('#goldfunction').click(function(){
     $('#goldfunctionvid').css('display', 'inline');
+    $('.video-close').css('display', 'inline');
 });
 
 $('.video-close').click(function(){
     $('#goldfunctionvid').css('display', 'none');
-
+    $('.video-close').css('display', 'none');
 });
 
 
