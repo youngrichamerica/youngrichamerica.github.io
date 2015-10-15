@@ -55,9 +55,15 @@ $(document).ready(function(){
 
 
 
-/* ------ Youtube PLAYER ----- */
+/* ----- Music Video Stuffs ----- */
+$('#goldfunction').click(function(){
+    $('#goldfunctionvid').css('display', 'inline');
+});
 
-$("img.youtube").YouTubePopup({ idAttribute: 'wA3t6V79mzY' });
+$('.video-close').click(function(){
+    $('#goldfunctionvid').css('display', 'none');
+
+});
 
 
 
