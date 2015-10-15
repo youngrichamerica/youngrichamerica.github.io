@@ -55,6 +55,10 @@ $(document).ready(function(){
 
 
 
+/* ------ Youtube PLAYER ----- */
+
+$("img.youtube").YouTubePopup({ idAttribute: 'wA3t6V79mzY' });
+
 
 
 /*--- Dropdown Menu Functionality ---*/
