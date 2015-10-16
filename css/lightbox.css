@@ -26,10 +26,11 @@
 .gallery
 
 {
-  width: 80%;
+  width: 85%;
   cursor: default;
   list-style: none;
-  display:inline;
+  padding:0!important;
+  margin:0 auto;
 }
 
 @media(max-width:1105px){
