@@ -45,7 +45,7 @@
 
   background: #fff;
 
-  border-color: #aaa #ccc #ddd #bbb;
+  border-color: #8A712E;
 
   border-style: solid;
 
@@ -53,7 +53,7 @@
 
   color: inherit;
 
-  padding: 2px;
+  padding: 1px;
 
   vertical-align: top;
 
@@ -64,10 +64,10 @@
 }
 
 .vertical {
-  
-  height: 200px;
 
-  width: 133px;
+  height: 200px!important;
+
+  width: 133px!important;
 
 }
 
