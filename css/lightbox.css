@@ -43,14 +43,7 @@
 .gallery img
 
 {
-
-  background: #8A712E;
-
-  border-color: #8A712E;
-
-  border-style: solid;
-
-  border-width: 1px;
+  border:1px solid #8A712E;
 
   color: inherit;
 
@@ -77,17 +70,6 @@
 .gallery li
 
 {
-
-  background: #eee;
-
-  border-color: #ddd #bbb #aaa #ccc;
-
-  border-style: solid;
-
-  border-width: 1px;
-
-  color: inherit;
-
   display: inline-block;
 
   margin: 3px;
