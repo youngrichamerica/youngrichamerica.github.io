@@ -65,15 +65,16 @@ $('#goldfunction').click(function(){
     $('#goldfunctionvid').css('display', 'inline');
 });
 
+$('#yravid').click(function(){
+    $('#yravid').css('display', 'inline');
+});
+
 $('.video-close').click(function(){
     $('#goldfunctionvid').css('display', 'none');
     $('#yravid').css('display', 'none');
     $('.video-close').css('display', 'none');
 });
 
-$('#yravid').click(function(){
-    $('#yravid').css('display', 'inline');
-});
 
 
 
