@@ -124,6 +124,11 @@ h4 {font-size: 1.2em;
 	cursor:pointer;
 }
 
+.video-thumb:hover{
+	opacity:.7;
+
+}
+
 /* ----- Members ----- */
 
 .member-holder {
