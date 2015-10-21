@@ -62,9 +62,15 @@ $('#goldfunction').click(function(){
 });
 
 $('.video-close').click(function(){
-    $('#goldfunctionvid').css('display', 'none');
+    $('#goldfunctionvid', '#yravid').css('display', 'none');
     $('.video-close').css('display', 'none');
 });
+
+$('#yravid').click(function(){
+    $('#yravid').css('display', 'inline');
+    $('.video-close').css('display', 'inline');
+});
+
 
 
 
