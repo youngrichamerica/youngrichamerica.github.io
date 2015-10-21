@@ -65,7 +65,7 @@ $('#goldfunction').click(function(){
     $('#goldfunctionvid').css('display', 'inline');
 });
 
-$('#yravid').click(function(){
+$('#yrathumb').click(function(){
     $('#yravid').css('display', 'inline');
 });
 
