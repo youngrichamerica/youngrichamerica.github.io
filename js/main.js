@@ -56,20 +56,23 @@ $(document).ready(function(){
 
 
 /* ----- Music Video Stuffs ----- */
+
+$('.video-thumb').click(function(){
+  $('.video-close').css('display', 'inline-block');
+});
+
 $('#goldfunction').click(function(){
     $('#goldfunctionvid').css('display', 'inline');
-    $('.video-close').css('display', 'inline');
 });
 
 $('.video-close').click(function(){
     $('#goldfunctionvid').css('display', 'none');
-    $('#yravid').css('display', 'none')
+    $('#yravid').css('display', 'none');
     $('.video-close').css('display', 'none');
 });
 
 $('#yravid').click(function(){
     $('#yravid').css('display', 'inline');
-    $('.video-close').css('display', 'inline');
 });
 
 
