@@ -367,6 +367,7 @@ h4 {font-size: 1.2em;
 
 div.promo-content {
 	overflow:scroll;
+	overflow-x:hidden;
 	max-width:340px;
 	max-height:247px;
 }
