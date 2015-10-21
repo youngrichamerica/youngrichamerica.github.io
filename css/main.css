@@ -365,6 +365,12 @@ h4 {font-size: 1.2em;
 	}
 }
 
+div.promo-box {
+	overflow:scroll;
+	max-width:340px;
+	max-height:247px;
+}
+
 @media (max-width:750px){
 .col {
 	margin:2.5em auto;
