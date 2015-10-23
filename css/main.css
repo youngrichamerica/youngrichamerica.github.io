@@ -118,6 +118,7 @@ h4 {font-size: 1.2em;
 	right:1em;
 	width:50px;
 	cursor:pointer;
+	z-index:1000;
 }
 
 .video-thumb {
