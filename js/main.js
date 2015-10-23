@@ -85,9 +85,19 @@ $('.video-close').click(function(){
 $('.read-more-content').addClass('hide');
 
 // Set up the toggle.
-$('.read-more-dots').on('click', function() {
-  $(this).next('.read-more-content').toggleClass('hide');
+$('.read-more-link').on('click', function() {
+  $(this).next('.read-more-content').removeClass('hide');
+  $(this).addClass('hide');
+  $(this).next('less-link').removeClass('hide');
 });
+
+$('.less-link').on('click', function() {
+  $(this).previous('.read-more-content').addClass('hide');
+  $(this).addClass('hide');
+  $(this).previous('read-more-link').removeClass('hide');
+});
+
+
 
 
 
