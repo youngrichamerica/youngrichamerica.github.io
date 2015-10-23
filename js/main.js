@@ -83,6 +83,7 @@ $('.video-close').click(function(){
 
 // Hide the extra content initially, using JS so that if JS is disabled, no problemo.
 $('.read-more-content').addClass('hide');
+$('.less-link').addClass('hide');
 
 // Set up the toggle.
 $('.read-more-link').on('click', function() {
