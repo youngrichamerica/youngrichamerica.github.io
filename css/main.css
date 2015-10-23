@@ -312,6 +312,12 @@ h4 {font-size: 1.2em;
 	color:#8A712E!important;
 }
 
+/* ---- Merch ---- */
+
+.merch-wide {
+	max-width:800px;
+}
+
 
 /* ---- Mobile Nav ---- */
 
