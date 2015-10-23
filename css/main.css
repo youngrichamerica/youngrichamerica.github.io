@@ -322,7 +322,21 @@ h4 {font-size: 1.2em;
 
 .merch-reg {
 	max-width:300px;
+	margin:1em;
 }
+
+.product {
+	display:inline-block;
+}
+
+.product-name {
+
+}
+
+.product-des {
+	
+}
+
 
 
 /* ---- Mobile Nav ---- */
