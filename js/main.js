@@ -79,7 +79,16 @@ $('.video-close').click(function(){
 
 
 
-/*--- Dropdown Menu Functionality ---*/
+/* ----- Read More STUFF ----- */
+
+// Hide the extra content initially, using JS so that if JS is disabled, no problemo.
+$('.read-more-content').addClass('hide');
+
+// Set up the toggle.
+$('.read-more-dots').on('click', function() {
+  $(this).next('.read-more-content').toggleClass('hide');
+});
+
 
 
 /* -------- Hamburger ----------- */

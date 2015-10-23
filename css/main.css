@@ -76,6 +76,11 @@ h4 {font-size: 1.2em;
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
 }
 
+.hide {
+  display: none;
+}
+
+
 /* ------ Homepage ----- */
 
 .site-tag {
@@ -234,6 +239,11 @@ h4 {font-size: 1.2em;
 	text-align: left;
     text-indent: 1em;
     font-size: .8em;
+}
+
+.read-more-dots {
+	max-width:50px;
+	cursor:pointer;
 }
 
 .album-player {
