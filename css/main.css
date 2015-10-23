@@ -231,6 +231,9 @@ h4 {font-size: 1.2em;
 
 .album-des {
 	max-width:300px;
+	text-align: left;
+    text-indent: 1em;
+    font-size: .8em;
 }
 
 .album-player {
