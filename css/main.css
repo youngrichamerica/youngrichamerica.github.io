@@ -316,6 +316,8 @@ h4 {font-size: 1.2em;
 
 .merch-wide {
 	max-width:800px;
+	display:block;
+	margin:1em auto;
 }
 
 .merch-reg {
