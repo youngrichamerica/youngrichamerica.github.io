@@ -125,7 +125,6 @@ h4 {font-size: 1.2em;
 	cursor:pointer;
 	width:150px;
 	padding-bottom:1em;
-	border-bottom:1px solid #8A712E;
 }
 
 .video-thumb:hover{
@@ -134,9 +133,13 @@ h4 {font-size: 1.2em;
 }
 
 .music-category {
-	display:block;
-	text-align:left;
-	font-family:caps;
+	display: block;
+    text-align: left;
+    text-indent: 10px;
+    font-family: caps;
+    padding: .2em;
+    font-size: 1.25em;
+    margin: 0 .5em .5em .5em;
 }
 
 .video-des {
