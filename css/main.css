@@ -243,6 +243,8 @@ h4 {font-size: 1.2em;
 
 .merch-contain {
 	width:80%;
+	text-align:center;
+	margin:0 auto;
 }
 
 @media(max-width:850px){
