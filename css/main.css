@@ -238,6 +238,49 @@ h4 {font-size: 1.2em;
 	display:none;
 }
 
+
+/* ---- Merch ---- */
+
+.merch-contain {
+	width:80%;
+}
+
+@media(max-width:850px){
+	.merch-contain {
+		width:100%;
+	}
+}
+
+@media(max-width:1000px){
+	.merch-wide {
+		width:100%;
+	}
+}
+
+.merch-wide {
+	width:80%;
+	display:block;
+	margin:6em auto 2em auto;
+}
+
+.merch-reg {
+	max-width:300px;
+	margin:1em;
+}
+
+.product {
+	display:inline-block;
+}
+
+.product-name {
+
+}
+
+.product-des {
+	color:#8a712e;
+}
+
+
 /* -----Header / Navigation ----- */
 
 .site-logo {
@@ -310,39 +353,6 @@ h4 {font-size: 1.2em;
 
 .nav-link:hover {
 	color:#8A712E!important;
-}
-
-/* ---- Merch ---- */
-
-
-
-@media(max-width:1000px){
-	.merch-wide {
-		width:100%;
-	}
-}
-
-.merch-wide {
-	width:80%;
-	display:block;
-	margin:6em auto 2em auto;
-}
-
-.merch-reg {
-	max-width:300px;
-	margin:1em;
-}
-
-.product {
-	display:inline-block;
-}
-
-.product-name {
-
-}
-
-.product-des {
-	color:#8a712e;
 }
 
 
