@@ -89,7 +89,7 @@ $('.less-link').addClass('hide');
 $('.read-more-link').on('click', function() {
   $(this).next('.read-more-content').removeClass('hide');
   $(this).addClass('hide');
-  $(this).nextUntil('.less-link').removeClass('hide');
+  $(this).siblings('.less-link').removeClass('hide');
 });
 
 $('.less-link').on('click', function() {
