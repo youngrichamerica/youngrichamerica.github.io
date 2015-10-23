@@ -151,6 +151,14 @@ h4 {font-size: 1.2em;
 
 .news-article {
 	font-size:.8em;
+	width:275px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+.read-more {
+	text-align:right;
 }
 
 /* ----- Members ----- */
