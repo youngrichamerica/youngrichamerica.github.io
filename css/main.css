@@ -242,9 +242,8 @@ h4 {font-size: 1.2em;
     font-size: .8em;
 }
 
-.read-more-dots {
-	max-width:50px;
-	cursor:pointer;
+.read-more-content {
+	text-indent:1em;
 }
 
 .album-player {
