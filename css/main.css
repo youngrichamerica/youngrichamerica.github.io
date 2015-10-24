@@ -344,6 +344,13 @@ h4 {font-size: 1.2em;
 	max-width:75px;
 }
 
+@media(max-width:575px){
+	.site-logo {
+		margin: 0;
+		max-width:60px;
+	}
+}
+
 .site-logo:hover{
 	opacity:.7;
 }
