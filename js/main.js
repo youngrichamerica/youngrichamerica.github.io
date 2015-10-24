@@ -93,9 +93,9 @@ $('.read-more-link').on('click', function() {
 });
 
 $('.less-link').on('click', function() {
-  $(this).previous('.read-more-content').addClass('hide');
+  $(this).siblings('.read-more-content').addClass('hide');
   $(this).addClass('hide');
-  $(this).previous('read-more-link').removeClass('hide');
+  $(this).siblings('.read-more-link').removeClass('hide');
 });
 
 
