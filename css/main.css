@@ -127,6 +127,13 @@ h4 {font-size: 1.2em;
 	z-index:1000;
 }
 
+@media(max-width:700px){
+	.video-close {
+		width:40px;
+		right:.5em;
+	}
+}
+
 .video-close:hover{
 	opacity:.7;
 }
