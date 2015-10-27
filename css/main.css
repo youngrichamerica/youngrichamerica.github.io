@@ -332,6 +332,25 @@ h4 {font-size: 1.2em;
 }
 
 
+.show-date {
+	font-family:caps;
+	font-size:1.25em;
+	float:left;
+	text-align:left;
+	width:30%;
+}
+
+.show {
+	float:left;
+	width:70%;
+	text-align:center;
+}
+
+.show-flyer {
+	max-width:500px;
+}
+
+
 /* -----Header / Navigation ----- */
 
 .social-box {
