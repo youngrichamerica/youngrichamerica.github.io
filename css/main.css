@@ -631,7 +631,6 @@ div.promo-content {
 /* ------ FOOTER ------ */
 .site-footer {
 	height:100px;
-	padding:1em 2em;
 	margin-top:4em;
 	background:url('/images/dark_wall.png');
 	clear:both;
@@ -640,11 +639,13 @@ div.promo-content {
 
 .bookings {
 	font-family:caps;
+	font-size:1.5em;
 }
 
 .half {
 	float:left;
 	width:50%;
+	padding:2em 1em;
 	text-align:center;
 }
 
