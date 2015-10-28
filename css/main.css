@@ -336,7 +336,7 @@ h4 {font-size: 1.2em;
 
 .show-container {
 	width:70%;
-	margin:6em auto 2em auto;
+	margin:6em auto 0 auto;
 }
 
 @media(max-width:700px){
@@ -375,7 +375,8 @@ h4 {font-size: 1.2em;
 }
 
 .show-flyer {
-	max-width:100%
+	max-width:100%;
+	margin-bottom:2em;
 }
 
 
