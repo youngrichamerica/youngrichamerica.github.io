@@ -627,6 +627,13 @@ div.promo-content {
 }
 
 
+/* ------ FOOTER ------ */
+.site-footer {
+	height:200px;
+	background:url('/images/dark_wall.png');
+}
+
+
 /* -----UTILITIES----- */
 
 .cf:before,
