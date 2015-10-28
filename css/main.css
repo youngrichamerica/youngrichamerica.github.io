@@ -632,6 +632,7 @@ div.promo-content {
 .site-footer {
 	height:200px;
 	background:url('/images/dark_wall.png');
+	clear:both;
 }
 
 
