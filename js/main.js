@@ -53,6 +53,18 @@ $(document).ready(function(){
       $(this).css('display', 'none');
   });
 
+    $('#play5').click(function(){
+      $('#player5').fadeIn(500);
+      $('#close5').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
+  $('#close5').click(function(){
+      $('#player5').css('display', 'none');
+      $('#play5').fadeIn(500);
+      $(this).css('display', 'none');
+  });
+
 
 
 /* ----- Music Video Stuffs ----- */
